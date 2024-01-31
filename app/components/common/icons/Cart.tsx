@@ -27,7 +27,7 @@ const Cart = () => {
         </clipPath>
       </defs>
     </svg>
-  );
-};
+  )
+}
 
-export default Cart;
+export default Cart
