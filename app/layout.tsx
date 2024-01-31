@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(montserrat.className, 'bg-[#FEFEFE] max-w-screen-2xl')}>
+      <body className={twMerge(montserrat.className, 'bg-[#FEFEFE] max-w-screen-2xl mx-auto')}>
         <Header />
         <main>
           {children}
