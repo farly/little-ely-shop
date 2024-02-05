@@ -1,9 +1,11 @@
 import { keys } from 'lodash';
-import SocialMediaIcon from './icons/SocialMedia';
-import Text from './ui/Text';
+import SocialMediaIcon from './icons/SocialMedia'
+import Text from './ui/Text'
 
 const Footer = () => {
-  const details = {
+  const details: {
+    [key: string]: string[]
+  } = {
     'company info': ['about us', 'Carrier', 'We are hiring', 'Blog'],
     Legal: ['about us', 'Carrier', 'We are hiring', 'Blog'],
     Features: [
@@ -34,7 +36,7 @@ const Footer = () => {
                 {detail}
               </Text>
               <ul className="flex flex-col gap-4">
-                {details[detail as keyof object].map((sub: any) => (
+                {details[detail as keyof object].map((sub: string) => (
                   <li
                     key={sub + detail}
                     className="text-sm font-bold capitalize text-[#737373]"
@@ -77,4 +79,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer
