@@ -1,9 +1,7 @@
-import HeaderView from "./ui/Header"
+import HeaderView from './ui/Header';
 
 const Header = () => {
-	return (
-		<HeaderView />
-	)
-}
+  return <HeaderView />;
+};
 
-export default Header
+export default Header;
