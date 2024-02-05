@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import MailIcon from '../icons/Mail';
-import SocialMediaIcon from '../icons/SocialMedia';
+import SocialMediaIcon from '../icons/SocialMediaIcon';
 import TelIcon from '../icons/Tel';
 import Text from './Text';
 import CartIcon15x15 from '../icons/Cart15x15';
