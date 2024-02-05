@@ -1,6 +1,6 @@
 import { keys } from 'lodash'
-import SocialMediaIcon from './icons/SocialMedia'
-import Text from './ui/Text'
+import SocialMediaIcon from './app/components/common/icons/SocialMediaIcon'
+import Text from './app/components/common/ui/Text'
 
 const Footer = () => {
   const details: {
